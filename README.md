@@ -1,9 +1,9 @@
-# Pretrain_XAI_gt
+# Benchmark data to study the influence of pre-training on explanation performance in MR image classification
 
 In this project random lesions are created and added to a background that consists in MRI slices from the HCP project.
-The objective here is to study the correctness of XAI methods applied to pre-trained VGG models. 
-The VGG were pre-trained with two different corpora: ImageNet and MRI (classification between female and male genders).
-The VGG was then fine-tuned to several degrees of finetuning that corresponded to a different number of layers fine-tuned and others left unchanged (frozen). 5 degrees of finetuning were obtained based on the blocks shown bellow:
+The objective here is to study the correctness of XAI methods applied to pre-trained VGG models and understand the influence on the explanations. 
+Two VGG models were pre-trained with two different corpora: ImageNet and MRI data (classification between female and male genders).
+The VGG models were then fine-tuned to several degrees of finetuning that corresponded to a different number of layers fine-tuned and others left unchanged (frozen). 5 degrees of finetuning were obtained based on the blocks shown bellow:
 
 ![alt text](https://github.com/Marta54/Pretrain_XAI_gt/blob/main/VGG%20architecture.png)
 
@@ -12,7 +12,7 @@ The XAI method used came from the Captum library and were Integrated Gradients, 
 In the folder saves several results for incorrectly classified images obtained with the XAI methods applied to the models that were pre-trained with ImageNet (for the best performing models and the models that performed similarly).
 In new results are the results obtained for the teo types of pre-trained corpora. These results correspond to the images that were correctly classified by all the models (3 models for each degree of finetuning).
 
-+ vgg 2500 training - corresponds to the Jupyter notebook used to train the models with different parameters and 2500 images
++ Finetuning_on_2500_images.ipynb - corresponds to the Jupyter notebook used to train the models with different parameters and 2500 images
 + Boxplot_incorrect_classified.ipynb - corresponds to the Jupyter notebook used to obtain the incorrected classified boxplots from the saves folder.
 + Examples Heatmaps.ipynb - corresponds to the Jupyter notebook used to obtain the heatmaps in the saves folder (incorrectly classified)
 + classification_metrics.ipynb - corresponds to the Jupyter notebook used to obtain the AUROC, AUPRC, Accuracy, Sensitivity and Specificity of each model
