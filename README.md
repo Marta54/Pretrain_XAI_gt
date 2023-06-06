@@ -1,9 +1,9 @@
 # Pretrain_XAI_gt
 
 In this project random lesions are created and added to a background that consists in MRI slices from the HCP project.
-The objective here is to study the correctness of XAI methods applied to pre-trained VGG models. 
-The VGG were pre-trained with two different corpora: ImageNet and MRI (classification between female and male genders).
-The VGG was then fine-tuned to several degrees of finetuning that corresponded to a different number of layers fine-tuned and others left unchanged (frozen). 5 degrees of finetuning were obtained based on the blocks shown bellow:
+The objective here is to study the correctness of XAI methods applied to pre-trained VGG models and understand the influence on the explanations. 
+Two VGG models were pre-trained with two different corpora: ImageNet and MRI data (classification between female and male genders).
+The VGG models were then fine-tuned to several degrees of finetuning that corresponded to a different number of layers fine-tuned and others left unchanged (frozen). 5 degrees of finetuning were obtained based on the blocks shown bellow:
 
 ![alt text](https://github.com/Marta54/Pretrain_XAI_gt/blob/main/VGG%20architecture.png)
 
