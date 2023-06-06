@@ -1,4 +1,4 @@
-# Pretrain_XAI_gt
+# Benchmark data to study the influence of pre-training on explanation performance in MR image classification
 
 In this project random lesions are created and added to a background that consists in MRI slices from the HCP project.
 The objective here is to study the correctness of XAI methods applied to pre-trained VGG models and understand the influence on the explanations. 
