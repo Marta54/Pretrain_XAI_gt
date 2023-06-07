@@ -19,3 +19,16 @@ In new results are the results obtained for the teo types of pre-trained corpora
 + **explanation_metrics.ipynb** -  corresponds to the Jupyter notebook used to obtain the incorrectly classified TP; TN; FP and FN.
 + **explanation_metrics2.ipynb**-  corresponds to the Jupyter notebook used to obtain the boxplots of the TPR (and TNR) of the correctly classified images
 + **find_intersections.ipynb** -  corresponds to the Jupyter notebook used to obtain the correctly classified TP; TN; FP and FN.
+
+## Packages Versions
+torchvision: 0.12.0+cu102
+nbib: 3.2.2
+pandas: 1.3.4
+numpy: 1.22.4
+matplotlib: 3.4.3
+scipy: 1.7.1
+skimage: 0.18.3
+ot: 0.8.2
+torch: 1.11.0+cu102
+torchmetrics: 0.11.4
+PIL: 9.1.1
