@@ -12,7 +12,7 @@ The XAI method used came from the Captum library and were Integrated Gradients, 
 In the folder saves several results for incorrectly classified images obtained with the XAI methods applied to the models that were pre-trained with ImageNet (for the best performing models and the models that performed similarly).
 In new results are the results obtained for the teo types of pre-trained corpora. These results correspond to the images that were correctly classified by all the models (3 models for each degree of finetuning).
 
-+ **Finetuning_on_2500_images.ipynb**- corresponds to the Jupyter notebook used to train the models with different parameters and 2500 images
++ **Finetuning_on_2500_images.ipynb** - corresponds to the Jupyter notebook used to generate data (2500 images) and train the models with different parameters. 
 + **Boxplot_incorrect_classified.ipynb** - corresponds to the Jupyter notebook used to obtain the incorrected classified boxplots from the saves folder.
 + **Examples Heatmaps.ipynb** - corresponds to the Jupyter notebook used to obtain the heatmaps in the saves folder (incorrectly classified)
 + **classification_metrics.ipynb** - corresponds to the Jupyter notebook used to obtain the AUROC, AUPRC, Accuracy, Sensitivity and Specificity of each model
