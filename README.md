@@ -22,7 +22,7 @@ In new results are the results obtained for the teo types of pre-trained corpora
 
 ## Packages Versions
 + torchvision: 0.12.0+cu102
-+ nbib: 3.2.2
++ nibabel: 3.2.2
 + pandas: 1.3.4
 + numpy: 1.22.4
 + matplotlib: 3.4.3
