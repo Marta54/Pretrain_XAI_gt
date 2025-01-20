@@ -1,4 +1,9 @@
-# Benchmark data to study the influence of pre-training on explanation performance in MR image classification
+# Benchmarking the influence of pre-training on explanation performance in MR image classification
+
+The corresponding paper can be found here: [Paper](https://doi.org/10.3389/frai.2024.1330919).
+
+The MRI raw dataset can be found on OSF: [Dataset](https://www.doi.org/10.17605/OSF.IO/XNWAJ).
+
 
 In this project random lesions are created and added to a background that consists in MRI slices from the HCP project.
 The objective here is to study the correctness of XAI methods applied to pre-trained VGG models and understand the influence on the explanations. 
