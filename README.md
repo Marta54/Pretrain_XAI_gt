@@ -1,3 +1,4 @@
+# Update 2025-03-21: A bug in the lesion generation process resulted in rectangular bounding box artifacts. This issue has been fixed, and due to the consistent nature of the artifacts, no changes in experimental results are expected.
 # Benchmarking the influence of pre-training on explanation performance in MR image classification
 
 The corresponding paper can be found here: [Paper](https://doi.org/10.3389/frai.2024.1330919).
